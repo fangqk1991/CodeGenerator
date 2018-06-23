@@ -1,15 +1,20 @@
 {
     "name": "fang/code-generator",
+    "description": "fang's code-generator dev",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "fangqk1991",
             "email": "me@fangqk.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Generator\\Lib\\": "include/"
+            "Generator\\Lib\\": "library/"
         }
     },
-    "require": {}
+    "require": {
+    }
 }
