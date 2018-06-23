@@ -1,0 +1,15 @@
+{
+    "name": "fang/code-generator",
+    "authors": [
+        {
+            "name": "fangqk1991",
+            "email": "me@fangqk.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Generator\\Lib\\": "include/"
+        }
+    },
+    "require": {}
+}
